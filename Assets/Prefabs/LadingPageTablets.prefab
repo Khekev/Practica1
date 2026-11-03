@@ -8,9 +8,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.6731852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.33514816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.30720764
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -328
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328108537098802661, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215589057634013943, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015225049408901784, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4179ee026c63c4f48a59ffb5d960334c, type: 3}
+    - target: {fileID: 6181030551996077801, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7887585707335007873, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
       propertyPath: m_Name
-      value: LadingPage Variant 1
+      value: LadingPageTablets
       objectReference: {fileID: 0}
     - target: {fileID: 8408697876854238565, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
       propertyPath: m_Pivot.x

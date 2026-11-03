@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class BootLoader : MonoBehaviour
 {
     [SerializeField] private string menuSceneName = "MainMenu";
+    [SerializeField] private int example;
 
     private void Awake()
     {
@@ -18,5 +19,11 @@ public class BootLoader : MonoBehaviour
 
         // Load the menu scene after boot
         SceneManager.LoadSceneAsync(menuSceneName, LoadSceneMode.Single);
+    }
+
+    public void changeExample(int exampleNum)
+
+    { 
+        example = exampleNum;
     }
 }
