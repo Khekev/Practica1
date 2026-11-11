@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1174452404
+--- !u!1001 &1145224851
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -127,25 +127,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2055046398}
     m_Modifications:
-    - target: {fileID: 15538043419585888, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4179ee026c63c4f48a59ffb5d960334c, type: 3}
-    - target: {fileID: 15538043419585888, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_Color.b
-      value: 0.0017354974
-      objectReference: {fileID: 0}
-    - target: {fileID: 15538043419585888, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_Color.g
-      value: 0.0017354974
-      objectReference: {fileID: 0}
-    - target: {fileID: 15538043419585888, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_Color.r
-      value: 0.009433985
-      objectReference: {fileID: 0}
     - target: {fileID: 2372402999217349910, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_Name
-      value: Close
+      value: CloseButtom
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_Pivot.x
@@ -180,18 +164,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2963
-      objectReference: {fileID: 0}
-    - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2963
-      objectReference: {fileID: 0}
-    - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2963
-      objectReference: {fileID: 0}
-    - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -209,15 +181,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -244,10 +216,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b02798842036dbe4495ea738ad9be194, type: 3}
---- !u!224 &1174452405 stripped
+--- !u!224 &1145224852 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4481759870527792075, guid: b02798842036dbe4495ea738ad9be194, type: 3}
-  m_PrefabInstance: {fileID: 1174452404}
+  m_PrefabInstance: {fileID: 1145224851}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1510177676
 GameObject:
@@ -625,7 +597,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1956388709}
-  - {fileID: 1174452405}
+  - {fileID: 1145224852}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

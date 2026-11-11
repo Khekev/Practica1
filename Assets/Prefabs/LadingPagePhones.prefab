@@ -8,9 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2599535954652259384, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -584
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095582410035582245, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -586
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601754589582550267, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -599
+      objectReference: {fileID: 0}
     - target: {fileID: 7887585707335007873, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
       propertyPath: m_Name
-      value: LadingPage Variant
+      value: LadingPagePhones
       objectReference: {fileID: 0}
     - target: {fileID: 8408697876854238565, guid: 62c2fda402cc68944b9048510fe45254, type: 3}
       propertyPath: m_Pivot.x
